@@ -1,0 +1,7 @@
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+Install-Package Microsoft.EntityFrameworkCore.Tools
+
+Scaffold-DbContext "[Conncection string]" Microsoft.EntityFrameworkCore.SqlServer -OutputDir [Mappa] -Context [Context osztály neve]
+-NoPluralize
+
+Az adatbázisok nem sajátok!!!
